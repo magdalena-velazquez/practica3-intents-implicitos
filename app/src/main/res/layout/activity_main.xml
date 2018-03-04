@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mx.unam.aragon.fes.diplo.practica02.MainActivity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnWeb"
+            android:text="@string/int_web" />
+
+        <Button
+            android:id="@+id/buttonPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnTel"
+            android:text="@string/int_tel" />
+
+        <Button
+            android:id="@+id/buttonCallPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnCall"
+            android:text="@string/int_call" />
+
+        <Button
+            android:id="@+id/buttonMaps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnMaps"
+            android:text="@string/int_maps" />
+
+        <Button
+            android:id="@+id/buttonSms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnSms"
+            android:text="@string/int_sms" />
+
+        <Button
+            android:id="@+id/buttonAlert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnAlarm"
+            android:text="@string/int_alarm" />
+
+        <Button
+            android:id="@+id/buttonCamera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnCamera"
+            android:text="@string/int_camera" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Escribe el mensaje para mandar Email"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/buttonMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btnMail"
+            android:text="@string/int_mail" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
